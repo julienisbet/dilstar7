@@ -3,11 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 900px;
+  background-color: #f1f2aa;
+  margin: 0 auto;
+}
+
 h1 {
   color: #3aeb34;
-  font-size: 1.5em;
+  font-size: 3em;
   text-align: center;
 }
 .open-sans {
   font-family: 'Open Sans';
+}
+
+.copy {
+  color: #3aeb34;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  height: 300px;
 }
