@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #3aeb34;
+  font-size: 1.5em;
+  text-align: center;
+}
+.open-sans {
+  font-family: 'Open Sans';
+}
