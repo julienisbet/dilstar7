@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+.container2 {
+  width: 900px;
+  background-color: ##f0e3ad;
+  margin: 0 auto;
+}
+
 h1 {
   color: #3aeb34;
   font-size: 3em;
