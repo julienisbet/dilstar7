@@ -3,15 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   width: 900px;
   background-color: #f1f2aa;
-  margin: 0 auto;
-}
-
-.container2 {
-  width: 900px;
-  background-color: ##f0e3ad;
   margin: 0 auto;
 }
 
@@ -20,6 +15,7 @@ h1 {
   font-size: 3em;
   text-align: center;
 }
+
 .open-sans {
   font-family: 'Open Sans';
 }
@@ -33,6 +29,7 @@ h1 {
 .pictures {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .picture {
