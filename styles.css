@@ -29,7 +29,6 @@ h1 {
 .pictures {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .picture {
