@@ -28,7 +28,7 @@ h1 {
 
 .pictures {
   display: flex;
-  justify-content: center;
+  justify-content;
 }
 
 .picture {
