@@ -11,9 +11,9 @@
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.container2 {
+.containertwo {
   width: 900px;
-  margin: 20px;
+  margin: 20px,auto;
   border: 1px, color #292e2c;
   padding: 20px;
 }
