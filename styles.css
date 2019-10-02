@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f0ecd1;
 }
 
 .container {
   width: 900px;
-  background-color: #f1f2aa;
+  color: #414141;               /* Dark gray */
   margin: 0 auto;
 }
 
@@ -17,7 +18,7 @@ h1 {
 }
 
 .open-sans {
-  font-family: 'Open Sans';
+  font-family: "open-sans";
 }
 
 .copy {
