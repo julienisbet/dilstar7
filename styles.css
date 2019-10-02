@@ -11,12 +11,6 @@
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.containertwo {
-  width: 900px;
-  margin: 20px,auto;
-  border: 1px, color #292e2c;
-  padding: 20px;
-}
 
 h1 {
   color: #292e2c;
@@ -40,4 +34,11 @@ h1 {
 .picture {
   height: 300px;
   padding: 10px;
+}
+
+.containertwo {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ebeae8;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
