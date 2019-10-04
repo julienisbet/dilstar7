@@ -15,7 +15,7 @@ body {
 
 
 .header {
-  color: #292e2c;
+  color: #7a6c0f;
   font-size: 3em;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
@@ -24,7 +24,7 @@ body {
 
 .copy {
   margin: auto;
-  color: #292e2c;
+  color: ##7a6c0f;
   font-size: 1.5em;
   text-align: center;
   width: 700px;
@@ -53,5 +53,10 @@ body {
 
 .section:nth-child(even) .header,
 .section:nth-child(even) .copy  {
+    color: #7a6c0f;
+}
+
+.section:nth-child(odd) .header,
+.section:nth-child(odd) .copy  {
     color: #7a6c0f;
 }
