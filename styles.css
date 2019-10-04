@@ -23,9 +23,11 @@ body {
 }
 
 .copy {
+  margin: auto;
   color: #292e2c;
   font-size: 1.5em;
   text-align: center;
+  width: 700px;
   padding: 10px;
 }
 
