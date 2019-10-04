@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #f0ecd1;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -14,11 +14,12 @@ body {
 }
 
 
-h1 {
+.header {
   color: #292e2c;
   font-size: 3em;
   text-align: center;
-  font-family: "Roboto Condensed Bold", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
 }
 
 .copy {
@@ -40,6 +41,15 @@ h1 {
   margin: 20px;
 }
 
+.section {
+  padding: 40px;
+}
+
 .section:nth-child(even) {
   background-color: white;
+}
+
+.section:nth-child(even) .header,
+.section:nth-child(even) .copy  {
+    color: #7a6c0f;
 }
