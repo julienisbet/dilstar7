@@ -11,6 +11,7 @@ body {
 
 .container {
   margin: 0 auto;
+  color: #7a6c0f;
 }
 
 
@@ -39,7 +40,7 @@ body {
 .picture {
   height: 300px;
   padding: 15px;
-  border: 1px solid #636361;
+  border: 1px solid #7a6c0f;
   margin: 20px;
 }
 
@@ -53,10 +54,5 @@ body {
 
 .section:nth-child(even) .header,
 .section:nth-child(even) .copy  {
-    color: #7a6c0f;
-}
-
-.section:nth-child(odd) .header,
-.section:nth-child(odd) .copy  {
     color: #7a6c0f;
 }
