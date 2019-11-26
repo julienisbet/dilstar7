@@ -11,6 +11,25 @@ background-color: #f0ecd1;
 
 }
 
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+  background: #D6E9FE;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
