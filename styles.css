@@ -44,6 +44,34 @@ body {
   margin: 20px;
 }
 
+.biglink {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #85fa3c;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%,-50%);
+}
+
+.biglink:hover {
+  color: #fa3c68;
+}
+.cinema {
+  width: 100%;
+  display: block;
+}
+
+.cinema_container {
+  position: relative;
+}
+
+.footer {
+  height: 200px;
+  background-color: #fa3c68;
+}
+
 .section {
   padding: 40px;
 }
