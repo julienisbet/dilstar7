@@ -24,6 +24,7 @@ a:hover {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  top: 00;
 
   width: 100%;
   padding: 10px;
@@ -47,6 +48,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  margin-top: 500px;
 }
 
 .column:nth-child(2) {
