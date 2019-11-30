@@ -24,34 +24,40 @@ a:hover {
 .header {
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   top: 0;
   width: 100%;
   padding: 10px;
+  height: 250px;
+  align-items: center;
   background: #D6E9FE;
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
+  width: 67%;
   margin-top: 15px;
 }
 
 .menu > li {
   display: inline;
   margin-right: 50px;
-}
-
-.menu > li:last-of-type {
-  margin-right: 0;
+  font-size: 2em;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 528px;
+  margin-top: 300px;
 }
 
 .column:nth-child(2) {
   border-width: 0px 1px;
   border-color: #7a6c0f;
+}
+.logo {
+  width: 33%;
+  padding-right: 100px;
 }
