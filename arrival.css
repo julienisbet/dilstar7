@@ -44,20 +44,46 @@ a:hover {
   display: inline;
   margin-right: 50px;
   font-size: 2em;
+  text-align: center;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin-top: 300px;
+  justify-content: space-evenly;
+  margin-top: 250px;
 }
-
+.column {
+  text-align: center;
+  width: 33%;
+}
 .column:nth-child(2) {
   border-width: 0px 1px;
   border-color: #7a6c0f;
+  border-style: solid;
 }
+
 .logo {
   width: 33%;
   padding-right: 100px;
+}
+
+.images {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.storytitle {
+  font-family: "Roboto Condensed" sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  line-height: 1em;
+}
+
+.story {
+  font-family: "Roboto Condensed" sans-serf;
+  font-size: 1em;
+  padding: 20px;
+  line-height: 1em;
+  text-align: justify;
 }
