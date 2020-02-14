@@ -89,3 +89,13 @@ a:hover {
   line-height: 1em;
   text-align: justify;
 }
+
+.scroll-down {
+  position: fixed;
+  bottom: 0;
+  width: 33%;
+}
+
+.down_arrow {
+  width: 33%;
+}
