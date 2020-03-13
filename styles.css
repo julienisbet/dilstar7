@@ -13,9 +13,26 @@ body {
   margin: 0 auto;
   color: #7a6c0f;
 }
+.home_nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
 
+.home_nav > li {
+  display: inline;
+  margin: 0px 25px;
+  font-size: 1em;
+  text-align: center;
+}
 
-.header {
+.home_nav > li >a {
+  text-decoration: none;
+  color: #5D6063;
+}
+
+.homepage_header {
   color: #7a6c0f;
   font-size: 3em;
   text-align: center;
