@@ -1,0 +1,63 @@
+video {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  text-align: center;
+  width: 33%;
+  height: calc(100vh - 250px);
+  overflow: scroll;
+}
+.column:nth-child(2) {
+  border-width: 0px 1px;
+  border-color: #7a6c0f;
+  border-style: solid;
+}
+
+.images {
+  max-height: 250px;
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.storytitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 20px;
+  line-height: 1em;
+}
+
+.story {
+  font-family: "Roboto Condensed", sans-serf;
+  font-size: 1em;
+  padding: 0px 20px;
+  line-height: 1em;
+  text-align: justify;
+}
+
+.story p{
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+
+.story p:last-child{
+  margin-bottom: 0;
+}
+
+.scroll-down {
+  position: fixed;
+  bottom: 0;
+  width: 33%;
+}
+
+.down_arrow {
+  width: 50%;
+}
