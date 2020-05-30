@@ -1,0 +1,31 @@
+.blogimage {
+  height: 200px;
+  padding-right: 25px;
+
+}
+
+.post {
+  padding: 40px;
+  display: flex;
+}
+
+.copy {
+  margin: auto;
+  color: #7a6c0f;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 10px;
+}
+.title {
+  color: #ff0000;
+  font-size: 2em;
+  text-align: left;
+}
+.post:nth-child(even) {
+  background-color: white;
+}
+
+.post:nth-child(even) .title,
+.post:nth-child(even) .copy {
+  color: #7a6c0f;
+}
