@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/shared.css" />
+    <link rel="stylesheet" href="/stylesheets/blog.css" />
+  </head>
 
-<head>
-  <meta charset='UTF-8' />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='/stylesheets/shared.css' />
-  <link rel='stylesheet' href='/stylesheets/blog.css'/>
-</head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="/">
+          <img height="250" src="/images/atomic_dilstar.png" />
+        </a>
+      </div>
 
-<body>
-  <div class='header'>
-    <div class='logo'>
-      <a href='/'>
-        <img height=250 src='/images/atomic_dilstar.png' />
-      </a>
+      <ul class="menu">
+        <li><a href="/arrival">Arrival</a></li>
+        <li><a href="/the_sewing_machine">The Sewing Machine</a></li>
+        <li><a href="/notorious_pooh_face">The Notorious Pooh-Face</a></li>
+        <li><a href="/blog" class="active"> Blog</a></li>
+      </ul>
     </div>
-
-    <ul class='menu'>
-      <li><a href='/arrival'>Arrival</a></li>
-      <li><a href='/the_sewing_machine'>The Sewing Machine</a></li>
-      <li><a href='/notorious_pooh_face'>The Notorious Pooh-Face</a></li>
-      <li><a href='/blog' class='active'> Blog</a></li>
-    </ul>
-  </div>
-<div class="container">
-  {{content}}
-</div>
-</body>
+    <div class="container">
+      {{content}}
+    </div>
+  </body>
 </html>
